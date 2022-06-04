@@ -1,5 +1,15 @@
 export type ObsState = {
   micVolume: number;
+  pngtuberSources: {
+    eyesOpen: {
+      mouthOpen: string;
+      mouthClosed: string;
+    };
+    eyesClosed: {
+      mouthOpen: string;
+      mouthClosed: string;
+    };
+  };
 };
 
 export type State =
