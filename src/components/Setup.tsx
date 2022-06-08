@@ -153,7 +153,7 @@ const Login = () => {
             Source URL (Copy into new OBS Browser Source)
           </span>
           <input
-            className="border-2 rounded-md select-all"
+            className="border-2 rounded-md"
             value={sourceUrl.toString()}
             readOnly={true}
           />
